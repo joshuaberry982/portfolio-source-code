@@ -96,7 +96,76 @@ export default function CV() {
 
             {/* Right */}
             <div className="right1">
-              <p>hi</p>
+            <div class="about1">
+                    <h3>Profile</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor autem est reprehenderit ullam possimus! Itaque quidem nostrum dolores fugiat mollitia, blanditiis facere, necessitatibus ipsa, et laudantium quae atque quam sint? Lorem ipsum dolor sit, amet consectetur adipisicing elit. A inventore vel delectus! Quo doloremque culpa nisi illum tempora vero adipisci nulla, cumque totam, sapiente unde. Molestias id illum iure est?<br /><br />Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus dolore quia totam ducimus corporis sit repellat quaerat incidunt, ab reprehenderit debitis consequuntur asperiores numquam vitae eveniet deserunt et dolor distinctio.</p>
+                 </div>
+                 <br />
+                 <div class="about1">
+                    <h3>Experience</h3>
+                    <div class="box1">
+                        <div class="year-company1">
+                            <h5>2017-2021</h5>
+                            <h5>Picasso Pizzeria</h5>
+                        </div>
+                        <div class="text1">
+                            <h4>Team Member/Manager</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, totam iusto saepe magni nemo reprehenderit accusantium non aspernatur quis delectus culpa rem deserunt? Incidunt fugit quae soluta dolorum facere earum?</p>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="box1">
+                        <div class="year-company1">
+                            <h5>2021-2023</h5>
+                            <h5>Various Hotels</h5>
+                        </div>
+                        <div class="text1">
+                            <h4>Chef De Partie</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, totam iusto saepe magni nemo reprehenderit accusantium non aspernatur quis delectus culpa rem deserunt? Incidunt fugit quae soluta dolorum facere earum?</p>
+                        </div>
+                    </div>
+                 </div>
+                 <br />
+
+                 <div class="about1 skills1">
+                    <h3>Professional Skills</h3>
+                    <div class="box1">
+                        <h4>HTML</h4>
+                        <span class="percent1">
+                            <div style={{ width: "85%" }}></div>
+                        </span>
+                    </div>
+                    <div class="box1">
+                        <h4>CSS</h4>
+                        <span class="percent1">
+                            <div style={{ width: "85%" }}></div>
+                        </span>
+                    </div>
+                    <div class="box1">
+                        <h4>JavaScript</h4>
+                        <span class="percent1">
+                            <div style={{ width: "85%" }}></div>
+                        </span>
+                    </div>
+                    <div class="box1">
+                        <h4>PostgreSQL</h4>
+                        <span class="percent1">
+                            <div style={{ width: "85%" }}></div>
+                        </span>
+                    </div>
+                    <div class="box1">
+                        <h4>Redux</h4>
+                        <span class="percent1">
+                            <div style={{ width: "85%" }}></div>
+                        </span>
+                    </div>
+                    <div class="box1">
+                        <h4>API Development</h4>
+                        <span class="percent1">
+                            <div style={{ width: "85%" }}></div>
+                        </span>
+                    </div>
+                 </div>
             </div>
         </div>
         <div className="margin1"></div>
