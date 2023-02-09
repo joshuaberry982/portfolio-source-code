@@ -1,0 +1,153 @@
+.container3 {
+    padding: 30px 10%;
+    background-color: rgb(219, 219, 219);
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+}
+
+.header3 {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(125, 125, 125);
+    /*position: fixed;*/
+}
+
+.header3 img {
+    height: 160px;
+    width: 160px;
+    padding: 20px;
+}
+
+.header3 ul {
+    display: inline-flex;
+    align-items: center;
+}
+
+.header3 ul li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+.header3 ul li a {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.header3 ul li a:hover {
+    color: #D4AF37;
+}
+
+.left3 {
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.right3 {
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.right p {
+    font-size: 14px;
+}
+
+.photo-container3 {
+    width: 100%;
+    margin-top: 200px;
+}
+
+.photo-container3 h2,
+.photo-container3 h4 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.imgs3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.imgs3 img {
+    width: 200px;
+    padding-bottom: 2px;
+    display: block;
+}
+
+.imgs3 figcaption {
+    font-size: 12px;
+    text-align: center;
+}
+
+.stk3 {
+    height: 280px;
+}
+
+.review-container3 {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.review3 {
+    padding: 5px;
+    width: 180px;
+    display: inline-block;
+}
+
+.location3 {
+
+}
+{/*
+@media only screen and (max-width: 767px) {
+    header {
+        justify-content: center;
+    }
+    header ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+    #left {
+        float: none;
+        width: 100%;
+    }
+    #left p {
+        font-size: 12px;
+    }
+    #right {
+        float: none;
+        width: 100%;
+        margin-top: 15px;
+    }
+    #right p {
+        font-size: 10px;
+    }
+    #photo-container {
+        margin-top: 10px;
+    }
+    #imgs img {
+        width: 160px;
+    }
+    .review {
+        padding-bottom: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #right p {
+        font-size: 12px;
+    }
+}
+*/}

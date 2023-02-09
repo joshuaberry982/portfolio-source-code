@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.cv1 {
+    min-width: 100vw;
+    min-height: 100%;
+    background-color: #fff;
+    font-family: 'Rokkitt', serif;
+    font-size: 20px;
+}
+
+/* Top */
+
+.cv1 .top1 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.cv1 .top1 .imgBx1 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cv1 .top1 .imgBx1 .box1 {
+    position: relative;
+    width: 70%;
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+
+.cv1 .top1 .imgBx1 .box1 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cv1 .top1 .profileText1 {
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.cv1 .top1 .profileText1 h3 {
+    font-size: 3em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #333;
+}
+
+.cv1 .top1 .profileText1 h3 span {
+    position: relative;
+    font-size: 0.5em;
+    font-weight: 300;
+    top: -10px;
+}
+
+/* Content Container */
+
+.cv1 .contentBox1 {
+    min-height: 500px;
+    margin-top: 50px;
+}
+
+.left1 {
+    width: 35%;
+    float: left;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.right1 {
+    width: 65%;
+    float: right;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.margin1 {
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+/* Left */
+
+.cv1 .contentBox1 h3 {
+    border-left: 4px solid #ff8bb3;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+}
+
+.contact1 {
+    position: relative;
+    margin: 10px 0;
+}
+
+.contact1 li {
+    list-style: none;
+    margin: 25px 0;
+    line-height: 1em;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+}
+
+.cv1 .contentBox1 ul.education1 li {
+    flex-direction: column;
+    margin: 25px 0;
+}
+
+.cv1 h5 {
+    color: #3590d2;
+}
+
+.cv1 h4 {
+    color: #333;
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.cv1 h6 {
+    color: #666;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.hobbies1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+    justify-items: center;
+}
+
+.hobbies1 li {
+    padding: 5px 10px;
+}
+
+/* Right */
+
