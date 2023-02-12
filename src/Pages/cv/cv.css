@@ -106,6 +106,7 @@
 .contact1 {
     position: relative;
     margin: 10px 0;
+    font-size: 14px;
 }
 
 .contact1 li {
@@ -115,6 +116,10 @@
     color: #333;
     cursor: pointer;
     display: flex;
+}
+
+.contact1 li span {
+    padding-left: 3px;
 }
 
 .cv1 .contentBox1 ul.education1 li {

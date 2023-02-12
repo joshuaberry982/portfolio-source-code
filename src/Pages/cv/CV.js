@@ -1,5 +1,11 @@
 import React from 'react';
 import './cv.css'
+
+import iconnumber from './iconnumber.png';
+import iconemail from './iconemail.png';
+import iconwebsite from './iconwebsite.png';
+import iconlocation from './iconlocation.png';
+
 import profilepic from './profilepic.jpg';
 import cooking from './cooking.png';
 import coding from './coding.png';
@@ -26,15 +32,19 @@ export default function CV() {
                 <h3>Contact Info</h3>
                 <ul className="contact1">
                     <li>
+                        <img src={iconnumber} width="14px" />
                         <span className="text1">+44 7704 596772</span>
                     </li>
                     <li>
+                        <img src={iconemail} width="14px" />
                         <span className="text1">joshuaberry982@outlook.com</span>
                     </li>
                     <li>
-                      <span className="text1">joshuaberry982.github.io</span>
+                        <img src={iconwebsite} width="14px" />
+                        <span className="text1">joshuaberry982.github.io</span>
                     </li>
                     <li>
+                        <img src={iconlocation} width="14px" height="14px" />
                         <span className="text1">Wigan, Greater Manchester, England</span>
                     </li>
                 </ul>

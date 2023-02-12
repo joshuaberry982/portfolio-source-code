@@ -5,6 +5,7 @@ import Home from "./Pages/Home";
 import ErrorPage from "./Pages/ErrorPage"
 import CV from "./Pages/cv/CV";
 import Restaurant from "./Pages/restaurant/Restaurant";
+import MusicPlayer from "./Pages/music-player/MusicPlayer";
 
 function getCurrentYear() {
   return new Date().getFullYear();
@@ -21,8 +22,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/cv" element={<CV />} />
         <Route path="/restaurant" element={<Restaurant />} />
+        <Route path="/musicplayer" element={<MusicPlayer />} />
         {/*
-        <Route path="/musicplayer" element={<Home />} />
         <Route path="/nothing" element={<Nothing />} />
         */}
         <Route path="*" element={<ErrorPage />} />

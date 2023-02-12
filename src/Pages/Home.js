@@ -1,6 +1,11 @@
 import React from 'react';
 import './home.css';
 import { useNavigate } from 'react-router-dom';
+import iconcv from './iconcv.png';
+import iconrestaurant from './iconrestaurant.png';
+import iconmusicplayer from './iconmusicplayer.png';
+
+{/* Icon Link = https://icons8.com/ */}
 
 export default function Home() {
   const nav = useNavigate();
@@ -11,7 +16,7 @@ export default function Home() {
         <div className="box0">
             <div className="content0">
                 <div className="icon0">
-                    a
+                    <img src={iconcv} width="50px" />
                 </div>
                 <div className="text0">
                     <h3>Resume/CV</h3>
@@ -23,7 +28,7 @@ export default function Home() {
         <div className="box0">
             <div className="content0">
                 <div className="icon0">
-                    p
+                    <img src={iconrestaurant} width="50px" />
                 </div>
                 <div className="text0">
                     <h3>Restaurant Website</h3>
@@ -35,7 +40,7 @@ export default function Home() {
         <div className="box0">
             <div className="content0">
                 <div className="icon0">
-                    m
+                    <img src={iconmusicplayer} width="50px" />
                 </div>
                 <div className="text0">
                     <h3>Music Project</h3>

@@ -93,11 +93,12 @@ body {
     font-size: 2.5em;
     background: #2e2e2e;
     transition: 0.5s ease-in-out;
+    border-radius: 5px; /**/
 }
 
 .container0 .box0:hover .content0 .icon0 {
-    background: red;
-    color: #2e2e2e;
+    /*background: red;
+    color: #2e2e2e;*/
     box-shadow: 0 0 0 4px #2e2e2e,
     0 0 0 300px red;
 }
