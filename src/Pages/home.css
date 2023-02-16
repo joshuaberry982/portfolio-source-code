@@ -1,3 +1,5 @@
+/* Global */
+
 .home0 {
     padding: 0;
     margin: 0;
@@ -18,9 +20,47 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 60px 0;
+    padding-bottom: 60px;
     gap: 60px;
 }
+
+/* Header */
+
+.header0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.header0 h2 {
+    position: relative;
+    font-size: 2em;
+    color: #111;
+}
+
+.header0 h2::before {
+    content: attr(data-text);
+    position: absolute;
+    white-space: nowrap;
+    color: #fff;
+    width: 350px;
+    overflow: hidden;
+    border-right: 4px solid #fff;
+    animation: animate 8s linear infinite;
+    
+}
+
+@keyframes animate {
+    0%, 10%, 100% {
+        width: 0;
+    }
+    70%, 90% {
+        width: 100%;
+    }
+}
+
+/* Cards */
 
 .container0 .box0 {
     position: relative;

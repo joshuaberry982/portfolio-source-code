@@ -12,6 +12,11 @@ export default function Home() {
 
   return (
     <div className="home0">
+
+    <div className="header0">
+        <h2 data-text="Joshua Berry Portfolio">Joshua Berry Portfolio</h2>
+    </div>
+    
     <div className="container0">
         <div className="box0">
             <div className="content0">
