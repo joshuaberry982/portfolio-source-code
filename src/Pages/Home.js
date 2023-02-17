@@ -60,7 +60,7 @@ export default function Home() {
                     a
                 </div>
                 <div className="text0">
-                    <h3>SEO</h3>
+                    <h3>Calc</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis quae omnis culpa cumque nihil.</p>
                     <button onClick={() => {nav("/nothing")}}>Click Here</button>
                 </div>
