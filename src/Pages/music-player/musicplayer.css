@@ -97,8 +97,13 @@
     outline:0;
 }
 
-.fa-play3 {
+.fa-play3,
+.fa-pause3 {
     width: 40px;
+}
+
+.fa-pause3 {
+    display: none;
 }
 
 .music-info3 {

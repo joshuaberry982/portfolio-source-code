@@ -1,16 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './musicplayer.css';
+
 import flag from './flag.jpg';
 import iconprev from './iconprev.png';
 import iconnext from './iconnext.png';
 import iconplay from './iconplay.png';
+import iconpause from './iconpause.png';
 
 export default function MusicPlayer() {
   return (
     <div className="musicplayer3">
       <h1>Music Player</h1>
 
-      <div className="music-container3">
+      <div id="musicContainer" className="music-container3">
 
         <div className="music-info3">
           <h4 className="title3">Country Roads</h4>
@@ -19,7 +21,7 @@ export default function MusicPlayer() {
           </div>
         </div>
 
-        <audio src="./countryroads.mp3" id="audio"></audio>
+        <audio src="./1 - Alkaline - Champion Boy" id="audio"></audio>
 
         <div className="img-container3">
           <img src={flag} alt="music-cover" className="cover3" />
@@ -27,13 +29,14 @@ export default function MusicPlayer() {
 
         <div className="navigation3">
           <button className="action-btn3 prev3">
-            <img src={iconprev} alt="prev" className="fas3 fa-backward3" />
+            <img src={iconprev} alt="prev" className="fa-backward3" />
           </button>
           <button className="action-btn3 action-btn-big3 play3">
-              <img src={iconplay} alt="play" className="fas3 fa-play3" />
+              <img src={iconplay} alt="play" className="fa-play3" onClick={playSong} />
+              <img src={iconpause} alt="pause" className="fa-pause3" onClick={pauseSong} />
           </button>
           <button className="action-btn3 next3">
-              <img src={iconnext} alt="next" className="fas3 fa-forward3" />
+              <img src={iconnext} alt="next" className="fa-forward3" />
           </button>
         </div>
 
@@ -42,6 +45,34 @@ export default function MusicPlayer() {
     </div>
   )
 }
+
+const playSong = () => {
+  const audio = new Audio('audio.mp3');
+  audio.play();
+  document.querySelector('.fa-play3').style.display = 'none';
+  document.querySelector('.fa-pause3').style.display = 'inline';
+};
+
+const pauseSong = () => {
+  const audio = new Audio('audio.mp3');
+  audio.play();
+  document.querySelector('.fa-play3').style.display = 'inline';
+  document.querySelector('.fa-pause3').style.display = 'none';
+};
+
+
+{/*
+
+function playSong() {
+  music-container3.classList.add('play3');
+  playBtn.querySelector('img.fas3').classList.remove('fa-play3');
+  playBtn.querySelector('img.fas3').classList.add('fa-pause3');
+
+  document.getElementById(audio).play();
+  useRef hook here to select id
+}
+
+*/}
 
 {/*
 const musicContainer = document.querySelector('.music-container3');
