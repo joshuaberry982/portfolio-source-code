@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import iconcv from './iconcv.png';
 import iconrestaurant from './iconrestaurant.png';
 import iconmusicplayer from './iconmusicplayer.png';
+import iconexpensetracker from './iconexpensetracker.png';
 
 {/* Icon Link = https://icons8.com/ */}
 
@@ -37,7 +38,7 @@ export default function Home() {
                 </div>
                 <div className="text0">
                     <h3>Restaurant Website</h3>
-                    <p>Since I was a chef before, I made one of my projects a modern retaurant website.</p>
+                    <p>CSS based Restaurant landing page with images are from my career as a chef.</p>
                     <button onClick={() => {nav("/restaurant")}}>Click Here</button>
                 </div>
             </div>
@@ -57,7 +58,7 @@ export default function Home() {
         <div className="box0">
             <div className="content0">
                 <div className="icon0">
-                    a
+                    <img src={iconexpensetracker} width="50px" />
                 </div>
                 <div className="text0">
                     <h3>Expense Tracker</h3>
