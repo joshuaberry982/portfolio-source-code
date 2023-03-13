@@ -60,9 +60,9 @@ export default function Home() {
                     a
                 </div>
                 <div className="text0">
-                    <h3>Calc</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis quae omnis culpa cumque nihil.</p>
-                    <button onClick={() => {nav("/nothing")}}>Click Here</button>
+                    <h3>Expense Tracker</h3>
+                    <p>This small project uses the useContext React Hook to update the state</p>
+                    <button onClick={() => {nav("/expensetracker")}}>Click Here</button>
                 </div>
             </div>
         </div>
